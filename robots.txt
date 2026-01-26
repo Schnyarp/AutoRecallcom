@@ -1,0 +1,12 @@
+# robots.txt for AutoRecall.com
+# This file is to manage access for web crawlers and bots.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /temp/
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.autorecall.com/sitemap.xml
